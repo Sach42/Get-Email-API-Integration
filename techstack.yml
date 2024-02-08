@@ -1,0 +1,152 @@
+repo_name: Sach42/Get-Email-API-Integration
+report_id: 26580fbd07fffc19b82a0906ffec78b4
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-08T19:02:32+00:00'
+requested_by: Sach42
+provider: github
+branch: main
+detected_tools_count: 9
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/Sach42/Get-Email-API-Integration
+  detection_source: Repo Metadata
+- name: Spring Framework
+  description: An application framework and inversion of control container for the
+    Java platform
+  website_url: https://spring.io/projects/spring-framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/2006/spring-framework-project-logo.png
+  detection_source_url: https://github.com/Sach42/Get-Email-API-Integration/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Sachin Shukla
+  last_updated_on: 2023-06-18 09:43:06.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Sach42/Get-Email-API-Integration
+  detection_source: Repo Metadata
+- name: Apache Camel
+  description: A versatile open source integration framework
+  website_url: https://camel.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Platform as a Service
+  image_url: https://img.stackshare.io/service/3276/xWt1RFo6_400x400.jpg
+  detection_source_url: https://github.com/Sach42/Get-Email-API-Integration/blob/main/src/main/resources/application.properties
+  detection_source: src/main/resources/application.properties
+- name: com.sun.mail:javax.mail
+  description: "${project.name}"
+  version: 1.6.2
+  license: CNRI-Python-GPL-Compatible
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Sach42/Get-Email-API-Integration/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Sachin Shukla
+  last_updated_on: 2023-06-18 09:43:06.000000000 Z
+- name: org.apache.tomcat.embed:tomcat-embed-core
+  description: Core Tomcat implementation
+  version: 10.1.8
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Sach42/Get-Email-API-Integration/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Sachin Shukla
+  last_updated_on: 2023-06-18 09:43:06.000000000 Z
+  vulnerabilities:
+  - name: Apache Tomcat Improper Input Validation vulnerability
+    cve_id: CVE-2023-46589
+    cve_url: https://github.com/advisories/GHSA-fccv-jmmp-qg76
+    detected_date: Dec 22
+    severity: high
+    first_patched: 10.1.16
+  - name: HTTP/2 Stream Cancellation Attack
+    cve_id: CVE-2023-44487
+    cve_url: https://github.com/advisories/GHSA-qppj-fm5r-hxr3
+    detected_date: Dec 22
+    severity: moderate
+    first_patched: 10.1.14
+  - name: Apache Tomcat Incomplete Cleanup vulnerability
+    cve_id: CVE-2023-42795
+    cve_url: https://github.com/advisories/GHSA-g8pj-r55q-5c2v
+    detected_date: Dec 22
+    severity: moderate
+    first_patched: 10.1.14
+  - name: Apache Tomcat Open Redirect vulnerability
+    cve_id: CVE-2023-41080
+    cve_url: https://github.com/advisories/GHSA-q3mw-pvr8-9ggc
+    detected_date: Sep 29
+    severity: moderate
+    first_patched: 10.1.13
+  - name: Apache Tomcat Improper Input Validation vulnerability
+    cve_id: CVE-2023-45648
+    cve_url: https://github.com/advisories/GHSA-r6j3-px5g-cq3x
+    detected_date: Dec 22
+    severity: moderate
+    first_patched: 10.1.14
+- name: org.sonatype.aether:aether-util
+  description: A collection of utility classes to ease usage of the repository system
+  version: '1.7'
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Sach42/Get-Email-API-Integration/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Sachin Shukla
+  last_updated_on: 2023-06-18 09:43:06.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-test
+  description: Starter for testing Spring Boot applications with libraries including
+    JUnit
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Sach42/Get-Email-API-Integration/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Sachin Shukla
+  last_updated_on: 2023-06-18 09:43:06.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-web
+  description: Starter for building web, including RESTful, applications using Spring
+    MVC
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Sach42/Get-Email-API-Integration/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Sachin Shukla
+  last_updated_on: 2023-06-18 09:43:06.000000000 Z
